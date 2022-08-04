@@ -34,3 +34,20 @@ p {
 img {
   max-width: 100%;
 }
+
+/* Navbar */
+
+.navbar {
+
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav-right {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
