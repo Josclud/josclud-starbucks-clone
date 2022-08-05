@@ -307,7 +307,7 @@ section a {
 .hamburger-bottom {
   position: absolute;
   top: 0;
-  left: 0 ;
+  left: 0;
   width: 24px;
   height: 2px;
   background: #000;
@@ -333,6 +333,25 @@ section a {
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
+
+/* Mobile Menu */
+.mobile-menu {
+  position: fixed;
+  top: 85px;
+  right: 0;
+  background-color: #fff;
+  color: #000;
+  width: 90%;
+  height: 100%;
+  padding: 30px;
+  box-shadow: inset 0 4px 3px -3px rgb(0 0 0 / 10%), inset 0 4px 2px -2px rgb(0 0 0 / 7%);
+}
+
+.mobile-menu img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
 }
 
 /* Media Queries */
