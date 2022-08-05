@@ -136,8 +136,16 @@ section a {
 }
 
 /* Box */
+
+
 .box {
   margin-bottom: 30px;
+}
+
+.box-a {
+  height: 250px;
+  display: flex;
+  align-items: center;
 }
 
 .box-inner {
